@@ -10,5 +10,8 @@ const preferColor = prompt ("Il tuo colore preferito");
 // costante fissa
 const userData = 24;
 
-// scrittura in html su specifico ID dei dati acquisiti
+// scrittura in console dei dati acquisiti
+console.log(userName + userSecondName + preferColor + userData);
+
+// scrittura in html dei dati acquisiti
 document.getElementById('output-generetor').innerHTML = userName + userSecondName + preferColor + userData;
